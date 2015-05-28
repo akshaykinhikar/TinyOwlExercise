@@ -214,3 +214,11 @@
 	height:1px;
 	width:100px;
 }
+
+.FAQ_title_font{
+	font-weight:bold;
+	color: #25292c;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
