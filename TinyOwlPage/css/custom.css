@@ -193,15 +193,15 @@
 .socialIcons{
 
 	background-color: #3b3f42;
-    background-position: center center;
-    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
     background-size: 16px 16px;
-    border: medium none;
+    /*border: medium none;*/
     border-radius: 50px;
     cursor: pointer;
-    display: inline-block;
+    /*display: inline-block;*/
     height: 40px;
-    margin: 0 5px;
+    padding: 5px 10px;
     width: 40px;
 }
 
