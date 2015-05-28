@@ -1,0 +1,60 @@
+.navbar-default-custom_style{
+	height:79px;
+	background-color:#FFF;
+	/*height:100%;*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+	background-color:#FFF;
+	color:#000;
+}
+
+
+.logo{
+	width:170px;
+	background-repeat : no-repeat;
+	margin-top:-10px;
+	margin-left: 120px;
+}
+
+.navbar_menu_holder{
+	padding-top: 15px;
+	font-weight: bold;
+	padding-right: 120px!important;
+}
+
+@media screen and (max-width: 830px) {
+    .logo{
+    	margin-left:0px;
+    }
+}
+
+/*++++++++++++++++++++++ responsive Nav bar for small screen +++++++++++++++++*/
+@media (max-width: 950px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+    	margin-top:20px;
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/*++++++++++++++++++++++ responsive Nav bar for small screen ends +++++++++++++++++*/
